@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  post 'messages/create'
   devise_for :users, controllers: {
     session: 'users/sessions'
   }

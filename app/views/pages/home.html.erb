@@ -1,1 +1,6 @@
-<div id="root"></div>
+<h1>Welcome to the Chat Party!</h1>
+<% if user_signed_in? %>
+  <div class="chat-box"></div>
+<% else %>
+  <h2>sign in or sign up to join the party</h2>
+<% end %>
